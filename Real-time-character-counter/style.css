@@ -1,0 +1,49 @@
+body {
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: salmon;
+   font-family: cursive;
+}
+
+.container {
+   background-color: lightpink;
+   width: 400px;
+   padding: 20px;
+   margin: 5px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.text {
+   resize: none;
+   height: 100px;
+   width: 100%;
+   padding: 10px;
+   font-size: 18px;
+   font-family: sans-serif;
+   box-sizing: border-box;
+   outline: none;
+   border: solid 2px darkgray;
+}
+
+.inner-box {
+   display: flex;
+   justify-content: space-between;
+   padding: 0 5px;
+}
+
+.inner-box p {
+   font-size: 18px;
+   color: gray;
+}
+
+.character-count {
+   color: slateblue;
+}
+
+.remaining-count {
+   color: orangered;
+}
